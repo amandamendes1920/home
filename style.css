@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+#topo{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*formatando os links de dentro do menu*/
+#menu a{
+    color: #222222;
+    text-decoration: none; /*retira o syblinhado*/
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+#menu a:hover{
+    color:#7e4d32;
+}
+
+#banner{
+    background-image: url(img/banneerr.jpg);
+   /*padding: 140px 0;*/
+   height: 450px;
+   display: flex;
+   align-items: center;
+   background-size: cover;
+}
+
+#texto-banner{
+    color: white;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+#texto-banner h1{
+    font-size: 36px;
+    margin: 0;
+}
+
+#texto-banner a{
+    color: white;
+    text-decoration: none;
+    border: solid 1px white;
+    padding: 10px 30px;
+    display: inline-block;
+}
+#fundo-cinza{
+    background-color: #cbcbcb;
+    padding: 50px 0;
+}
+
+#apresentacao{
+
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.flexbetween{
+    display: flex;
+    justify-content: space-between;
+
+}
+.coluna{
+    width: 220px;
+    text-align: center;
+    margin: 50px 0; /*50px pra cima e pra baixa e 0 nas laterais*/
+}
+.flexbetween h1{
+    color:black;
+}
+a{
+    color: #482c11;
+}
+#advogados{
+    float: right;
+    margin-left: 50px;
+}
+#apresentacao h2{
+    font-size: 30px;
+    color: #000000;
+    text-align: left;
+}
+#apresentacao p{
+    color: #222222;
+    text-align: justify;
+}
+.btn{
+    background-color: #482c11;
+    color: #a09d9d;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline;
+}
+.clearfix{
+    
+}
+#rodape{
+    background-color: gray;
+    text-align: center;
+    padding: 15px 0;
+}
+#rodape p{
+    color: white;
+    
+}
